@@ -48,7 +48,7 @@ def main(args: argparse.Namespace) -> None:
 
     cfg.logger.log_interval = 1
 
-    cfg.dataset.sequence_length = 4096
+    cfg.dataset.seq_length = 4096
     cfg.checkpoint.save = None
 
     if cfg.profiling is None:
